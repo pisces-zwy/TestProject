@@ -39,7 +39,7 @@
 /* Begin PBXFileReference section */
 		132D79A1D00A303EB614E186 /* Pods_TestCrash_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestCrash_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E404CF0FED9FE9BFDFF05D6 /* Pods-TestCrash_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestCrash_Tests.debug.xcconfig"; path = "Target Support Files/Pods-TestCrash_Tests/Pods-TestCrash_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		33DCF7A440468E1F4DA19B52 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		33DCF7A440468E1F4DA19B52 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		3F356F6416842EDFC8CC9E5A /* Pods-TestCrash_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestCrash_Example.debug.xcconfig"; path = "Target Support Files/Pods-TestCrash_Example/Pods-TestCrash_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		3F3FF06B7BED2B9BE82723A8 /* Pods-TestCrash_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestCrash_Tests.release.xcconfig"; path = "Target Support Files/Pods-TestCrash_Tests/Pods-TestCrash_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* TestCrash_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestCrash_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -60,10 +60,10 @@
 		6003F5B7195388D20070C39A /* Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
-		601FB87913B8A06B60DBA9EF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		601FB87913B8A06B60DBA9EF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		617A057024DCCF2719DE54FE /* Pods_TestCrash_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestCrash_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6D22755B35038A3BBAFDCBC8 /* TestCrash.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = TestCrash.podspec; path = ../TestCrash.podspec; sourceTree = "<group>"; };
+		6D22755B35038A3BBAFDCBC8 /* TestCrash.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TestCrash.podspec; path = ../TestCrash.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7C73909C3512E316D03FF242 /* Pods-TestCrash_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestCrash_Example.release.xcconfig"; path = "Target Support Files/Pods-TestCrash_Example/Pods-TestCrash_Example.release.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -103,7 +103,6 @@
 				1E404CF0FED9FE9BFDFF05D6 /* Pods-TestCrash_Tests.debug.xcconfig */,
 				3F3FF06B7BED2B9BE82723A8 /* Pods-TestCrash_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

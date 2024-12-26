@@ -1,0 +1,6 @@
+framework module TestCrash {
+  umbrella header "TestCrash-umbrella.h"
+
+  export *
+  module * { export * }
+}
